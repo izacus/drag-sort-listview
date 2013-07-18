@@ -19,7 +19,7 @@ Copyright 2012 Andreas Schildbach
 
 	<groupId>com.mobeta.android.dslv</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.6.1-SNAPSHOT</version>
+	<version>0.6.2</version>
 	<packaging>pom</packaging>
 
     <properties>
@@ -33,10 +33,17 @@ Copyright 2012 Andreas Schildbach
         <module>demo</module>
     </modules>
 
+   <distributionManagement>
+        <repository>
+            <id>android</id>
+            <url>http://nexus.iddiction.com:8080/content/repositories/android</url>
+        </repository>
+    </distributionManagement>
+
     <scm>
-        <url>https://github.com/bauerca/drag-sort-listview/</url>
-        <connection>scm:git:git://github.com/bauerca/drag-sort-listview.git</connection>
-        <developerConnection>scm:git:git@github.com:bauerca/drag-sort-listview.git</developerConnection>
+        <url>https://github.com/izacus/drag-sort-listview/</url>
+        <connection>scm:git:git://github.com/izacus/drag-sort-listview.git</connection>
+        <developerConnection>scm:git:git@github.com:izacus/drag-sort-listview.git</developerConnection>
     </scm>
 
     <dependencyManagement>
